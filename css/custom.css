@@ -1,0 +1,461 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	font-family: 'Raleway', sans-serif;
+}
+
+.jumbotron{
+	margin-bottom:0px;
+	background-image:url('../images/portfolio-pics/egypt.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	background-attachment:fixed;
+	color:white;
+}
+
+.jumbotron img{
+	margin-bottom:15px;
+}
+
+.img-thumbnail{
+	border:9px double #808000;
+	padding:0px;
+	background-color:black;
+}
+
+.btn-success:link{
+	background-color:#808000;
+	border:1px solid #808000;
+	color:black;
+}
+
+.btn-success:visited{
+	background-color:#808000;
+	border:1px solid #808000;
+	color:white;
+}
+
+.btn-success:hover{
+	background-color:#343a40;
+	border-color:#343a40;
+}
+
+.btn-success:focus{
+	background-color:#343a40;
+	border-color:#343a40;
+}
+
+.btn-success:active{
+	background-color:#343a40;
+	border-color:#343a40;
+}
+
+.btn-success{
+	background-color:#808000;
+}
+
+.spacer{
+	height:1px;
+	overflow:hidden;
+	background-color: #343a40;
+}
+
+.tagline > div{
+	border:9px double #808000;
+	width:80%;
+	margin:auto;
+}
+
+.tagline > div > div{
+	width:100%;
+	padding:20px;
+	background-color:black;
+	opacity:0.8;
+}
+
+h2{
+	font-size:1.2em;
+}
+
+.divided{
+	border-bottom:25px solid #343a40;
+	background-color:#343a40;
+}
+
+.side-nav{
+	padding:20px;
+	padding-left:40px;
+}
+
+.side-nav > div{
+	/*
+	background-color:#808000;
+	*/
+	background-color:black;
+	height:100%;
+	border-radius:15px;
+	border:9px double #808000;
+	color:black;
+}
+
+.side-nav > div > div{
+	border-radius:8px;
+	background-color:white;
+	padding:10px;
+	height:100%;
+}
+
+.button-default{
+	margin-bottom:8%;
+	margin-top:7%;
+}
+
+.button-override{
+	margin-bottom:3%;
+	margin-top:2%;
+}
+
+.btn-highlight{
+	background-color:#808000;
+}
+
+.carousel-item{
+	border:1px solid black;
+}
+
+.carousel-caption{
+	right:0px;
+	top:0px;
+	text-align:right;
+	padding-right:20px;
+	height:1px;
+	width:350px;
+	margin-right:0px;
+	margin-left:auto;
+}
+
+.carousel-indicators{
+	display:none;
+	width:150px;
+	margin:auto;
+	background-color:#808000;
+	padding:10px;
+	border:1px solid black;
+	border-radius:10px;
+}
+
+.carousel-indicators li{
+	cursor:pointer;
+	height:10px;
+	border:1px solid black;
+	background-color:#6c757d;
+}
+
+.carousel-indicators .active{
+	background-color:#1e7e34;
+}
+
+#carouselExampleControls h5{
+	font-size:2.2em;
+}
+
+.side-nav button{
+	border:1px solid black;
+}
+
+.container{
+	max-width:80%;
+}
+
+.intro{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.intro img{
+	width:80%;
+}
+
+.dropdown-header{
+	background-color:white;
+	border:1px solid black;
+}
+
+.bg-dark h3{
+	padding:20px;
+	color:white;
+	text-align:center;
+	margin:0px;
+}
+
+.white-line{
+	border-bottom:1px solid white;
+}
+
+.samples{
+	padding: 20px 0 0 0;
+}
+
+.samples .card{
+	margin-bottom:20px;
+}
+
+.samples .card:hover{
+	cursor:pointer;
+	border-color:white;
+}
+
+.samples .card:hover h5{
+	background-color:white;
+}
+
+.card{
+	min-width:285px;
+}
+
+.card > img{
+	width:100%;
+	height:auto;
+}
+
+.card-body{
+	height:440px;
+	color:white;
+	background-color:black;
+}
+
+.card-body a:link{
+	color:black;
+}
+.card-body a:visited{
+	color:black;
+}
+.card-body a:hover{
+	color:white;
+}
+.card-body a:focus{
+	color:black;
+}
+.card-body a:active{
+	color:black;
+}
+
+.contact-card a:link{
+	color:white;
+}
+.contact-card a:visited{
+	color:white;
+}
+.contact-card a:hover{
+	color:white;
+}
+.contact-card a:focus{
+	color:white;
+}
+.contact-card a:active{
+	color:white;
+}
+
+.card h5{
+	font-size:1.5em;
+	background-color:#808000;
+	padding:7px;
+	margin-bottom:0px;
+}
+
+.blog-icon{
+	width:100%;
+	border:1px solid black;
+}
+
+.life-holder{
+	width:30%;
+	position:absolute;
+	right:0px;
+	top:0px;
+}
+
+.has-border{
+	border:1px solid black;
+	width:80%;
+	padding:10px;
+}
+
+footer{
+	color:white;
+	margin-top:15px;
+	padding:20px;
+	padding-top:30px;
+}
+
+a:link{
+	color:#808000;
+}
+a:visited{
+	color:#808000;
+}
+a:hover{
+	color:#808000;
+}
+a:focus{
+	color:#808000;
+}
+a:active{
+	color:#808000;
+}
+
+.dropdown-menu a:link{
+	color:white;
+}
+.dropdown-menu a:visited{
+	color:white;
+}
+.dropdown-menu a:hover{
+	color:white;
+}
+.dropdown-menu a:focus{
+	color:white;
+}
+.dropdown-menu a:active{
+	color:white;
+}
+
+.dropdown-item:hover{
+	background-color:#808000;
+}
+
+.dropdown-menu{
+	background-color:#343a40;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+}
+
+#map{
+	height:300px;
+}
+
+#map-holder .card{
+	margin-bottom:15px;
+}
+
+.map-title{
+	position:absolute;
+	top:5px;
+	left:35%;
+	width:40%;
+	background-color:black;
+	border:1px solid white;
+	color:white;
+	padding:5px;
+	z-index:32000;
+	text-align:center;
+	font-size:0.8em;
+}
+
+.the-blog a:link{
+	color:black;
+	background-color:#808000;
+	padding:2px;
+}
+.the-blog a:visited{
+	color:black;
+	background-color:#808000;
+}
+.the-blog a:hover{
+	color:white;
+	background-color:#808000;
+}
+.the-blog a:focus{
+	color:black;
+	background-color:#808000;
+}
+.the-blog a:active{
+	color:black;
+	background-color:#808000;
+}
+
+.btn-success{
+	border-color:#808000;
+	color:black;
+}
+
+.blog-btn a:link{
+	border-color:#808000;
+	color:black;
+	background-color:#808000;
+	padding:2px;
+}
+.blog-btn a:visited{
+	color:black;
+	background-color:#808000;
+}
+.blog-btn a:hover{
+	color:white;
+	background-color:#808000;
+}
+.blog-btn a:focus{
+	color:black;
+	background-color:#808000;
+}
+.blog-btn a:active{
+	color:black;
+	background-color:#808000;
+}
+
+#mmm, #world, #never{
+	width:880px;
+	margin:auto;
+	border:1px solid black;
+	padding:20px;
+	margin-top:20px;
+}
+
+.open-btn-holder{
+	position:absolute;
+	left:0px;
+	bottom:10px;
+	width:100%;
+}
+
+@media only screen and (max-width: 1300px){
+	.card-body{
+		height:540px;
+	}
+	.card h5{
+		font-size:1.1em;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.the-blog{
+		max-width:100%;
+	}
+	#mmm, #world, #never{
+		width:100%;
+	}
+	.life-holder{
+		position:relative;
+		width:100%;
+		text-align:right;
+	}
+	.life-holder img{
+		margin-top:15px;
+		width:80%;
+	}
+	.side-nav button{
+		margin-bottom:0px;
+		margin-top:0px;
+	}
+
+	.side-nav{
+		padding-left:20px;
+	}
+}
+
+
+
+
